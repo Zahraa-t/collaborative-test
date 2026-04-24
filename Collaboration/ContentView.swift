@@ -19,6 +19,11 @@ struct ContentView: View {
             Spacer()
                 .frame(height: 10)
             Text("Collab")
+            Image(systemName: "eraser.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50, height: 50)
+                .foregroundStyle(.black)
         }
         .padding()
     }
